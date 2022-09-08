@@ -9,7 +9,7 @@ const videoCard = ({video}) => {
                 <CardMedia component="img" src={video.snippet.thumbnails.medium.url} sx={{height : "15.7rem", backgroundColor : "#7c7c7c"}} alt="videoThumbnail"/>
             </Link>
             <CardContent sx={{height : "10rem"}}>
-                <Typography variant="subtitle1" sx={{fontFamily : "iranyekan"}}>
+                <Typography variant="subtitle1">
                     <Link to={`/video/${video.id.videoId}`} style={{color : "#fff"}}>{video.snippet.title.split(1 , 60)}</Link>
                 </Typography>
 

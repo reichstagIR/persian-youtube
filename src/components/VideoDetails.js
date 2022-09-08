@@ -36,7 +36,7 @@ const VideoDetails = () => {
 
 
     return (
-        <Box minHeight="calc(100vh - 78px)" sx={{backgroundColor: "#000", fontFamily: "iranyekan , sans-serif"}}>
+        <Box minHeight="calc(100vh - 78px)" sx={{backgroundColor: "#000"}}>
             <Container maxWidth="xl">
                 {loading ?
                     <Stack alignItems="center" justifyContent="center" sx={{height: "calc(100vh - 78px)"}}>
