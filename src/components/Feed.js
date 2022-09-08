@@ -20,7 +20,7 @@ const Feed = () => {
     } , [selectedCategory]);
 
     return (
-        <Box sx={{ backgroundColor : "#000"}}>
+        <Box sx={{ backgroundColor : "#000" , fontFamily : "iranyekan"}}>
             <Stack direction={{xs : "column" , md : "row"}}>
                 <Stack direction={{xs : "row" , md : "column"}} sx={{px : "0.5rem" , overflow : "auto" , width : {xs : "auto" , md : "20%"} , height : {xs : "auto" , md : "calc(100vh - 87px)"} , borderLeft : {md : "1px solid #383232"}, my : {md : "0.3rem"}}}>
                     <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}/>
