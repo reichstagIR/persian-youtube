@@ -41,7 +41,7 @@ const ChannelDetails = () => {
                     </Box>
                 :
                     <Box pb="1.4rem">
-                        <Container maxWidth="xl">
+                        <Container maxWidth="xl" sx={{overflow : "hidden"}}>
                             <Videos videos={channelVideos}/>
                         </Container>
                     </Box>

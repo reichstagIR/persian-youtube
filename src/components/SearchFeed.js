@@ -31,7 +31,7 @@ const SearchFeed = () => {
                 </Stack>
                 :
                 <Box>
-                    <Container maxWidth="xl">
+                    <Container maxWidth="xl" sx={{overflow : "hidden"}}>
                         <Videos videos={searchResult}/>
                     </Container>
                 </Box>
