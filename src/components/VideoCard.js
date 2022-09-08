@@ -14,7 +14,7 @@ const videoCard = ({video}) => {
                 </Typography>
 
                 <Link to={`/channel/${video?.snippet?.channelId}`} style={{color : "#7c7c7c"}}>
-                    <Typography variant="subtitle2" mt="0.4rem" sx={{display : "flex" , alignItems : "center" , fontFamily : "iranyekan"}}>
+                    <Typography variant="subtitle2" mt="0.4rem" sx={{display : "flex" , alignItems : "center"}}>
                         {video?.snippet?.channelTitle}
                         <CheckCircleRoundedIcon  sx={{width : "1rem" , mr : "0.3rem"}}/>
                     </Typography>
