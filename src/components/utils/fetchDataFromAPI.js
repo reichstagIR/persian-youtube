@@ -12,6 +12,6 @@ export const fetchDataFromAPI = async (params , endPoint) => {
             'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
         }
     };
-    const response = axios.request(options);
+    const response = await axios.request(options);
     return response;
 }
